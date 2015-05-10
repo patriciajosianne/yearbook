@@ -1,0 +1,111 @@
+h1{
+    text-align: center;
+}
+
+body{
+    margin: 0 auto;
+    background: url(../img/fundo.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4B616F;
+}
+
+section#listaAlunos{
+    
+}
+
+figure{
+    margin: 0 auto;
+    width: 240px;
+    height: 320px;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 1em;
+}
+
+li:hover{
+    opacity: 0.7;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+a{
+    margin:0px;
+    text-decoration: none !important;
+    color: #4B616F !important;
+}
+
+figure{
+    float: left;
+    display: inline-block;
+    width: 240px;
+    height: 320px;
+}
+
+dt, dd{
+    float: left;
+    line-height: 2em;
+}
+
+dt{
+    width: 10%;
+    text-align: right;
+    font-weight: bold;
+}
+
+dd{
+    margin: 0 auto;
+    width: 85%;
+    padding-left: 1em;
+}
+
+div#dadosAluno{
+    margin: 0 auto;
+    padding: 2em;
+    width: 70%;
+    float: left;
+}
+
+a.voltar{
+	font-weight: bold;
+	padding: 0.5em;
+	margin: 9em;
+	background-color: #F2F2F2;
+	border-radius: 0.5em;
+}
+
+a.voltar:hover{
+	color: #F2F2F2 !important;
+	background-color: #4B616F;
+}
+
+footer{
+	text-align: center;
+	padding: 1em;
+}
+
+header{
+	border: 1px solid #F2F2F2;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	border-radius: 2em;
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+.miniaturas {
+  display:inline-block;
+  height:80px;
+  margin:0;
+  padding:1px;
+  width:60px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white !important;
+}
